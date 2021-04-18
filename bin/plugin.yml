@@ -1,0 +1,9 @@
+name: TxPotions
+main: me.tx.txpotions.TxPotionsPlugin
+version: 1.0
+authors: [Jeromy, Gabriel]
+api-version: 1.16
+commands:
+  txpotion:
+    description: gives u a tx pot
+    usage: /<command>

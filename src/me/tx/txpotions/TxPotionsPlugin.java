@@ -29,7 +29,7 @@ public class TxPotionsPlugin extends JavaPlugin {
 	private static final List<TxPotion> potions = new ArrayList<>();
 	
 	public static List<TxPotion> getPotions() {
-		return potions;
+		return Collections.unmodifiableList(potions);
 	}
 	
 	public static Optional<TxPotion> getPotion(String id) {
